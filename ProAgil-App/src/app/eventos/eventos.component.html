@@ -1,0 +1,12 @@
+<p>
+  eventos works!
+</p>
+
+<div *ngIf = "eventos">
+  <div *ngFor = "let evento of eventos">
+    Tema: {{evento.tema}}
+    <br>
+    Evento: {{evento.local}}
+    <hr>
+  </div>
+</div>
